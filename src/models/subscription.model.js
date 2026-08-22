@@ -5,7 +5,7 @@ subscriber:{
     type:Schema.Types.ObjectId, //one who is susbcribing
     ref:"User"
 },
-channnel:{
+channel:{
     type:Schema.Types.ObjectId,  //one to whom 'subscriber' is subscribing
     ref:"User"
 }

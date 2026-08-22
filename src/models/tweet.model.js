@@ -8,7 +8,7 @@ owner:{
 },
 content:{
     type:String,
-    required:TextTrackCue
+    required:true
 }
 
 },{timestamps:true})
